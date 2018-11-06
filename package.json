@@ -1,7 +1,7 @@
 {
   "name": "sumologic-logger",
   "version": "0.1.0",
-  "description": "CLI to package up a lambda function and its node modules in a zip folder",
+  "description": "Send your application's logs to a SumoLogic HTTP endpoint",
   "main": "lib/index.js",
   "scripts": {
     "clean": "mkdir -p lib; rm -r lib; mkdir -p test-results; rm -r test-results;",
